@@ -1,7 +1,7 @@
 import file_size
 
 
-dict_items = file_size.get_size_in_dir('E:/University/9sem/')
+dict_items = file_size.explore_dir('E:/University/9sem/')
 dirs = []
 
 for key, val in dict_items.items():
